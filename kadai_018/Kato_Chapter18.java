@@ -8,6 +8,11 @@ abstract public class Kato_Chapter18 {
 	public String givenName; //名を表す
 	public String address = "東京都中野区〇×"; //住所を表す
 
+	//名を表すフィールドの値をセットする
+	public void setGivenName(String givenName) {
+		this.givenName = givenName;
+	}
+
 	//メソッド
 	//共通の紹介を出力する
 	public void commonIntroduce() {
